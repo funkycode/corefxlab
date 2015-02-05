@@ -132,9 +132,9 @@ internal class Program
                     c == '@' ? ConsoleColor.Black :
                     c == '-' ? ConsoleColor.Yellow :
                     ConsoleColor.White;
-                Console.BackgroundColor = cc;
+               // Console.BackgroundColor = cc;
                 Console.ForegroundColor = cc;
-                Console.Write(" ");
+                Console.Write(c) ;
             }
         }
 
